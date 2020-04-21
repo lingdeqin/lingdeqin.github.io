@@ -3,5 +3,15 @@
     <meta charset="utf-8">
     <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/zero.css">
+    <link rel="stylesheet" href="/assets/css/default.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="{{ site.url }}/assets/css/small.css" type="text/css" media="(max-width: 720px)"/> -->
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/syntax.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
 </head>
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+<!--<![endif]-->

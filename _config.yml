@@ -5,3 +5,10 @@ title: "Zero" # the name of your site, e.g. ACME Corp.
 paginate: 10
 
 plugins: [jekyll-paginate]
+
+#highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  #syntax_highlighter: rouge
